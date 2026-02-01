@@ -14,9 +14,6 @@ Features:
 - Contact form with backend
 - Multi-page structure
 
-Note:
-The live hosted version contains frontend (HTML/CSS/JS) only as per instructor instructions.
-Backend code is included in the repository.
 
 Screenshots:
 <img width="1728" height="778" alt="Screenshot 2026-02-01 133932" src="https://github.com/user-attachments/assets/ccbb158b-f409-4766-8015-86079a6e9d5a" />
