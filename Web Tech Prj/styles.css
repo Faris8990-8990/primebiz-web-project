@@ -1,0 +1,26 @@
+*{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+body{background:#f6f9fc;color:#0f172a;line-height:1.6}
+header{background:#0f172a;color:white}
+.container{max-width:1100px;margin:0 auto;padding:1rem}
+.nav{display:flex;align-items:center;justify-content:space-between}
+.nav ul{display:flex;gap:1rem;list-style:none}
+.nav a{color:white;text-decoration:none;font-weight:600}
+.logo{font-size:1.3rem;font-weight:800}
+.hero{padding:4rem 1rem;text-align:left}
+.hero h1{font-size:2.5rem;margin-bottom:1rem}
+button{padding:.7rem 1.1rem;border:none;border-radius:8px;font-weight:700;cursor:pointer;background:#2563eb;color:white}
+.features,.grid{display:grid;gap:1rem;margin:2rem 0}
+.features{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.grid{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:white;border-radius:14px;padding:1rem;box-shadow:0 10px 20px rgba(0,0,0,.05)}
+.page-header{padding-top:2rem}
+.form input,.form textarea{width:100%;padding:.6rem;border-radius:6px;border:1px solid #cbd5e1;margin-bottom:.7rem}
+footer{text-align:center;padding:1.2rem 0;margin-top:2rem;background:#020617;color:#e5e7eb}
+.slider{margin-top:1rem}
+.slide{display:none;font-weight:700}
+.slide.active{display:block}
+.testimonials{text-align:center;margin-top:2rem}
+.testimonial-box{background:white;padding:1rem;border-radius:12px}
+.reveal{opacity:0;transform:translateY(20px);transition:.6s}
+.reveal.visible{opacity:1;transform:none}
+@media(max-width:640px){.hero h1{font-size:2rem}}
